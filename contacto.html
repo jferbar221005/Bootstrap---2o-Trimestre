@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Toyota</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-top">
+        Contacto
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de</a></li>
+          <li class="nav-item"><a class="nav-link" href="modelos.html">Modelos</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="recursos.html">Recursos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="text-center">Contacto</h1>
+    <h2 class="text-center">Aqui podras comunicarte con nosotros para dudas o pedir presupuesto de algunos de los modelos vistos en <a href="modelos.html">Modelos</a></h2>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre:</label>
+        <input type="text" class="form-control" id="nombre">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico:</label>
+        <input type="email" class="form-control" id="email">
+      </div>
+      <div class="mb-3">
+        <label for="dni" class="form-label">DNI:</label>
+        <input type="text" class="form-control" id="dni">
+      </div>
+      <div class="mb-3">
+        <label for="tlfno" class="form-label">Numero de telefono:</label>
+        <input type="text" class="form-control" id="tlfno">
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje:</label>
+        <textarea class="form-control" id="mensaje" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+  <br>
+  <footer class="bg-dark text-white text-center py-4" style="position: fixed; bottom: 0; left: 0; width: 100%; z-index: 1000;">
+    <p>&copy; 2025 Toyota. Todos los derechos reservados.</p>
+    <p>Correo electrónico: <a href="mailto:contacto@toyota.com" class="text-white">contacto@toyota.com</a></p>
+    <p>Teléfono: +34 959 220 505</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
